@@ -28,7 +28,6 @@ a:active { color: red; }
 
 
 A[href]{ color: lime;
-text-indent: 50px;
 display: inline-block;
 }
 

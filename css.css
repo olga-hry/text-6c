@@ -1,0 +1,42 @@
+.z{color:black;
+font-weight: bold;
+font-size: 1.5em;
+}
+
+.r{ color: green;
+margin: 5px;
+}
+
+.ch{ color:red;
+font-weight: bold;
+}
+
+.i{
+color:blue;
+}
+
+
+.a{
+color:blue;
+font-style: italic;
+}
+
+a:link { color: blue; }
+a:visited { color: purple; }
+a:active { color: red; }
+
+
+
+A[href]{ color: lime;
+text-indent: 50px;
+display: inline-block;
+}
+
+
+.i+p+p {
+color: black;}
+
+
+div p:nth-child(n+3) { background-color: pink; }
+
+div p:nth-child(even) { font-size: 30px; }
